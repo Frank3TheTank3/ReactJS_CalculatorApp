@@ -25,17 +25,16 @@ title {
     padding: 25px;
     border-radius: 25px;
     justify-content: center;
-    animation-name: example;
+    animation-name: TitleAnimation;
     animation-duration: 6s;  
-    animation-direction: alternate;
+    animation-direction: forwards;
     animation-delay: 2s;
-    animation-fill-mode: backwards;
     opacity: 0%;
     top: 0px;
   }
 
 
-  @keyframes example {
+  @keyframes TitleAnimation {
     25% {top: 0px; opacity: 100%;}
     100% {top: 170px; opacity: 0%; animation-play-state: paused; color: white;}
   }
@@ -89,3 +88,4 @@ title {
     color: white;
     font-size: 2.5rem;
 }
+
